@@ -1,8 +1,7 @@
 {
-  "name": "vuepress-starter",
+  "name": "@pake/web",
   "version": "1.0.0",
-  "description": "Vuepress starter",
-  "main": "index.js",
+  "description": "Website for https://pake.web.id",
   "repository": "git@github.com:ekoeryanto/vuepress-starter.git",
   "author": "Eko Eryanto <ekoeryanto@gmail.com>",
   "license": "MIT",
@@ -12,6 +11,8 @@
     "dev": "yarn start"
   },
   "dependencies": {
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
     "vuepress": "^0.14.2"
   },
   "devDependencies": {

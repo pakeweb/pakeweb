@@ -1,6 +1,8 @@
 ---
-layout: Home
+home: true
 heroImage: /logo.svg
+heroText: Pake Web
+tagline: Buat website gratis dengan teknologi mutakhir.
 actionText: Pelajari →
 actionLink: /ikhtisar/
 features:

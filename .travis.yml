@@ -9,6 +9,7 @@ notifications:
 deploy:
   provider: pages
   local-dir: dist
+  repo: pakeweb/pakeweb.github.io
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   keep-history: false

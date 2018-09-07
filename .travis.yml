@@ -20,7 +20,6 @@ deploy:
     on:
       branch: master
   - provider: firebase
-    project: "pake-web"
     token:
       secure: Bg6OltfHLAafrmKqCTkOJ0mTt0u6wEtyTDub0QFJepQdJY0gn2tDNqfNfuGi1E7CQL+AmkToyWCkuv+EKLYh1S5D/i2JYw6HCcxN/hwLx8mE7ahQsUV5wP6MGfuPoNVynGyzztngptzcxW+F7W/3hdRyuRbtW0gl1Q5l4Ag7hi5Bu/Ro/CxVdC3kfmp5g7SmnvyuFZaeuRvqbscRdTKICJfyFk5Ujhn8Nype6EiQr2MFDn0Jk93+LnVvdK+pJNuJ0UeFmWF0ydi6Xfy9HAmwmWTRQSt0v9TwS2Sft834qqygykbOyD7McSHite2R6HMpitpS1tm9S9cw9Pu+wOth70e0Xt+emTGm4KpEvbkgPPNzisqr8cPxtJd1aSawlh8onMmhB8OCd/u4y73zG5diHWvDaQ9x8Pzg1OUNZ2C+C5lvoV5s/tW0fh7y01ReivqrcmGenG+2uiLuyFWkzc3Ww/g6yl3fmE3C6/PLy61uKhCISFIEFOmL0sCy/YALrVsRh2mLbw/4oTsKnXGuLLS0MiFmZefIbEMZr3LJt7a0zrfUZA/mrZFB73TWfSeEPzb06HOw6/wfBFI+ODbwcinU+DPBMThHg/u9aF7/rdwaHd96VhW6xGXj8YiPDFmQR7NeMBILFSPVz1LzFNyln049iuTZR8e/vDyzq5Rgub202v0=
     on:

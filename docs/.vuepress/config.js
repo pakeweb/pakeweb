@@ -69,7 +69,7 @@ module.exports = {
         ],
         serviceWorker: {
           updatePopup: {
-            message: 'Ditemukan pembaruan pada website.',
+            message: 'Ditemukan pembaruan.',
             buttonText: 'Perbarui',
           },
         },

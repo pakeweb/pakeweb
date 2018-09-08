@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 # Ikhtisar
 
 ## Prakata
@@ -44,7 +47,8 @@ Domain tld gratis cukup bagus digunakan untuk 6-9 bulan, 3 bulan sisanya digunak
 
 Walaupun bisa menggunakan domain gratis, saat website sudah berkembang atau nama/merek/usaha sudah cukup dikenal sangat disarankan untuk menggunakan domain berbayar seperti `.com`, `.co.id` atau lainnya.
 
-## Jasa
+### Jasa
+
 Di PakeWeb hanya ada orang-orang **mahir** dan **tidak mahir**, tidak ada orang yang pertengahan. Untuk orang tidak mahir  pekerjaan yang anda berikan adalah ajang belajar dan peningkatan kemampuan sedangkan untuk orang mahir, membuat website bukan hal yang seberapa sulit dan digunakan.
 
 Kami adalah orang yang percaya akan kemampuan kami, kualitas produk yang kami hasilkan dan yakin anda akan puas dengan yang kami berikan. Itulah alasan kenapa anda bisa mendapatkannya secara gratis dan juga menjadi alasan yang logis untuk anda percaya terhadap kami.

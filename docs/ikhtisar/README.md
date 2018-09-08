@@ -9,7 +9,7 @@ Hal ini bukan cuma menguntungkan pelanggan atau mitra, tetapi juga semua yang be
 
 ## Biaya
 
-> *[Zaman know](https://zaman.now.sh) memang tidak ada yang gratis*
+> *[Zaman know](https://zaman.now.sh) tidak ada yang gratis*
 
 Kami akan mengamini pernyataan tersebut tapi tidak sepenuhnya. Karena kami akan memberikan pelayanan gratis untuk pembuatan website anda setidaknya untuk satu tahun pertama. Kenapa hanya satu tahun pertama? Oke, jika ternyata website anda yang sudah berumur satu tahun belum juga berguna buat anda, pengunjung hanya sedikit, dan lain sebagainya semua tetap gratis!
 

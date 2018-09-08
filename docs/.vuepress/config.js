@@ -52,20 +52,21 @@ module.exports = {
   },
   serviceWorker: true,
   themeConfig: {
+    search: false,
+    editLinks: true,
+    repo: 'pakeweb/pakeweb',
+    docsDir: 'docs',
+    logo: '/logo.svg',
+    activeHeaderLinks: false,
     locales: {
       '/': {
-        search: false,
-        repo: 'pakeweb/pakeweb',
-        editLinks: true,
         editLinkText: 'Edit halaman ini',
-        docsDir: 'docs',
-        logo: '/logo.svg',
         nav: [
-          { text: 'pengembang', link: '/pengembang/' },
+          { text: 'Beranda', link: '/' },
+          // { text: 'pengembang', link: '/pengembang/' },
           { text: 'ikhtisar', link: '/ikhtisar/' },
           // { text: 'hubungi', link: '/hubungi/' },
         ],
-        activeHeaderLinks: false,
         serviceWorker: {
           updatePopup: {
             message: 'Ditemukan pembaruan pada website.',

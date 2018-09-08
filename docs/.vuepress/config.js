@@ -38,15 +38,15 @@ module.exports = {
       'meta',
       { name: 'apple-mobile-web-app-status-bar-style', content: '#008080' },
     ],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'PakeWeb' }],
-    ['meta', { name: 'application-name', content: 'PakeWeb' }],
+    ['meta', { name: 'apple-mobile-web-app-title', content: 'Pake Web' }],
+    ['meta', { name: 'application-name', content: 'Pake Web' }],
     ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
   locales: {
     '/': {
       lang: 'id-ID',
-      title: 'PakeWeb',
+      title: 'Pake Web',
       description: 'Website gratis mutakhir, cepat dan profesional.',
     },
   },

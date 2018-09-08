@@ -65,5 +65,6 @@ module.exports = {
         buttonText: 'Perbarui',
       },
     },
+    lastUpdated: 'Diperbarui pada',
   },
 }

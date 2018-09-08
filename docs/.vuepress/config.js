@@ -1,8 +1,6 @@
 // use config.yml for simple configuration
 module.exports = {
   dest: 'dist',
-  title: 'PakeWeb',
-  description: 'Website gratis mutakhir, cepat dan profesional.',
   head: [
     [
       'link',
@@ -45,26 +43,37 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
+  locales: {
+    '/': {
+      lang: 'id-ID',
+      title: 'PakeWeb',
+      description: 'Website gratis mutakhir, cepat dan profesional.',
+    },
+  },
   serviceWorker: true,
   themeConfig: {
-    search: false,
-    repo: 'pakeweb/pakeweb',
-    editLinks: true,
-    editLinkText: 'Edit halaman ini',
-    docsDir: 'docs',
-    logo: '/logo.svg',
-    nav: [
-      { text: 'pengembang', link: '/pengembang/' },
-      { text: 'ikhtisar', link: '/ikhtisar/' },
-      // { text: 'hubungi', link: '/hubungi/' },
-    ],
-    activeHeaderLinks: false,
-    serviceWorker: {
-      updatePopup: {
-        message: 'Ditemukan pembaruan pada website.',
-        buttonText: 'Perbarui',
+    locales: {
+      '/': {
+        search: false,
+        repo: 'pakeweb/pakeweb',
+        editLinks: true,
+        editLinkText: 'Edit halaman ini',
+        docsDir: 'docs',
+        logo: '/logo.svg',
+        nav: [
+          { text: 'pengembang', link: '/pengembang/' },
+          { text: 'ikhtisar', link: '/ikhtisar/' },
+          // { text: 'hubungi', link: '/hubungi/' },
+        ],
+        activeHeaderLinks: false,
+        serviceWorker: {
+          updatePopup: {
+            message: 'Ditemukan pembaruan pada website.',
+            buttonText: 'Perbarui',
+          },
+        },
+        lastUpdated: 'Diperbarui pada',
       },
     },
-    lastUpdated: 'Diperbarui pada',
   },
 }

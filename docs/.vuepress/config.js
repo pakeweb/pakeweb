@@ -57,7 +57,6 @@ module.exports = {
     repo: 'pakeweb/pakeweb',
     docsDir: 'docs',
     logo: '/logo.svg',
-    activeHeaderLinks: false,
     locales: {
       '/': {
         editLinkText: 'Edit halaman ini',

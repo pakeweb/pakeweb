@@ -4,58 +4,65 @@ sidebar: auto
 # Ikhtisar
 
 ## Prakata
-[Zaman know](https://zaman.now.sh) semua memang sudah serba simpel, dari mulai belanja sampe ngojek semua bisa dilakukan tanpa pake ribet.
-Hal ini bukan cuma menguntungkan pelanggan atau mitra, tetapi juga semua yang berhubungan dengan bisnis tersebut. Oleh karena itu, kami mengusung [pake web](https://pake.web.id) untuk kita semua meng-*online*-kan usaha, profil dan lain sebagainya.
+[Zaman now](https://zaman.now.sh) semua memang sudah serba *online*; dari mulai belanja, ngojek sampai beli tiket semua bisa dilakukan tanpa ribet.
+Hal ini tentu saja menguntungkan bagi orang-orang yang (mampu) mempunyai sarana tersebut. Tetapi menjadi tidak adil jika sarana tersebut hanya dimiliki orang-orang yang mempunyai finansial yang cukup. Oleh karena itu, kami mengusung [Pake Web]($withRoot('/')) untuk kita **semua** meng-*online*-kan ide, usaha, profil dan lain sebagainya.
 
 ## Biaya
 
-> *[Zaman know](https://zaman.now.sh) tidak ada yang gratis*
+> *[Zaman now](https://zaman.now.sh) tidak ada yang gratis*
 
-Kami akan mengamini pernyataan tersebut tapi tidak sepenuhnya. Karena kami akan memberikan pelayanan gratis untuk pembuatan website anda setidaknya untuk satu tahun pertama. Kenapa hanya satu tahun pertama? Oke, jika ternyata website anda yang sudah berumur satu tahun belum juga berguna buat anda, pengunjung hanya sedikit, dan lain sebagainya semua tetap gratis!
+Kami tidak sepenuhnya mengamini pernyataan tersebut karena kami akan memberikan pelayanan gratis untuk pembuatan website anda setidaknya sampai anda merasa website anda harus ditingkatkan.
 
-## Gratis
+Jika anda menyukai pekerjaan kami, kami akan sangat menghargai jika anda melakukan donasi baik itu Rp1.000 perbulan, Rp10.000 sekali saja, bahkan do'a anda saja sangat kami harapkan.
 
-Jika anda bertanya "Kenapa bisa gratis?" atau berpikiran "Ah, paling kualitas ecek-ecek!", kami mengerti. Kami akan menjawab pertanyaan dan membersihkan pikiran tersebut.
+## Kualitas
+
+Jika anda bertanya "Kenapa bisa gratis?" atau berpikiran "Ah, paling kualitas écék-écék!", kami mengerti. Kami akan mencoba menjawab pertanyaan dan membersihkan pikiran tersebut.
 
 ### Server
 
 Berikut adalah beberapa server gratis yang kami gunakan untuk hosting website
 
-1. Google Firebase
-2. Google App Engine
-3. Netlify
-4. Zeit
-5. Heroku
-6. Forge
-7. Surge
-8. Github
-9. Gitlab
-10. Bitbucket, dll
+1. [Google Firebase](https://firebase.google.com/)
+2. [GAE (Google App Engine)](https://cloud.google.com/appengine/)
+3. [Netlify](https://netlify.com/)
+4. [Zeit](https://zeit.co/)
+5. [Heroku](https://heroku.com/)
+6. [Forge](https://getforge.com/)
+7. [Surge](https://surge.sh/)
+8. [Github](https://github.com/)
+9. [Gitlab](https://gitlab.com/)
+10. [Bitbucket](https://bitbucket.org/)
 
 :::tip
-Jika melihat daftar tersebut (terutama dua teratas) anda masih berpikir *ecek-ecek* sebaiknya anda segera keluar dari ruangan anda, karena mungkin anda *kurang piknik*.
+Jika melihat daftar di atas (terutama dua teratas) anda masih berpikir kualitas gratisan sebagai *écék-écék* sebaiknya anda segera keluar dari ruangan anda, karena mungkin anda **kurang piknik**.
 :::
 
 ### Domain
 
-Daftar server gratis diatas semua menawarkan subdomain gratis untuk jangka waktu yang tidak ditentukan (bisa selamanya), contohnya Zeit memberikan `nama-anda.now.sh`, Netlify `nama-anda.netlify.com`, Google App Engine `nama-anda.appspot.com` dan lain-lain. Namun itu adalah subdomain, untuk *startup* itu cukup, akan tetapi jika anda keukeuh mau nama domain yang simpel dan cantik, berikut adalah list `domain level atas` gratis yang bisa anda dapatkan:
+[Daftar server](#server) gratis di atas rata-rata menawarkan *subdomain* gratis untuk jangka waktu yang tidak ditentukan (bisa selamanya), contohnya [Zeit](https://zeit.co/) memberikan `nama-anda.now.sh`, [Netlify](https://netlify.com/) `nama-anda.netlify.com`, [GAE](https://cloud.google.com/appengine/) `nama-anda.appspot.com` dan lain-lain. 
+Jika anda tidak mau menggunakan *subdomain*, berikut saya berikan beberapa daftar domain tld (top level domain) gratis yang bisa anda gunakan.
 
 1. `nama-anda.ga`
 2. `nama-anda.gf`
-3. `nama-anda.tk`, dll
+3. `nama-anda.tk`
 
-:::warning
-Penyedia tld (top level domain) gratis biasanya hanya memberi gratis pada tahun pertama dan tahun berikutnya berbayar.
+
+:::warning PERINGATAN
+Domain tld (top level domain) gratis biasanya hanya diberikan untuk tahun pertama saja.
 :::
+
+Walaupun bisa menggunakan domain gratis, saat website sudah berkembang atau nama/merek/usaha sudah cukup dikenal sangat disarankan untuk menggunakan domain berbayar seperti `.com`, `.co.id` atau lainnya.
 
 :::tip 
 Domain tld gratis cukup bagus digunakan *startup* untuk 6-9 bulan, 3 bulan sisanya digunakan untuk pengalihan ke domain baru.
 :::
 
-Walaupun bisa menggunakan domain gratis, saat website sudah berkembang atau nama/merek/usaha sudah cukup dikenal sangat disarankan untuk menggunakan domain berbayar seperti `.com`, `.co.id` atau lainnya.
-
 ### Jasa
 
+Anda akan mendapatkan layanan pembuatan website, pelatihan untuk moderasi konten website juga layanan penanggulangan keamanan dan kerusakan website.
+
+<!-- 
 Di **Pake Web** hanya ada orang-orang **mahir** dan **tidak mahir**, tidak ada orang yang pertengahan. Untuk orang tidak mahir  pekerjaan yang anda berikan adalah ajang belajar dan peningkatan kemampuan sedangkan untuk orang mahir, membuat website bukan hal yang begitu sulit.
 
-Kami adalah orang yang percaya akan kemampuan kami, kualitas produk yang kami hasilkan dan yakin anda akan puas dengan yang kami berikan. Itulah alasan kenapa anda bisa mendapatkannya secara gratis dan juga menjadi alasan yang logis untuk anda percaya terhadap kami.
+Kami adalah orang yang percaya akan kemampuan kami, kualitas produk yang kami hasilkan dan yakin anda akan puas dengan yang kami berikan. Itulah alasan kenapa anda bisa mendapatkannya secara gratis dan juga menjadi alasan yang logis untuk anda percaya terhadap kami. -->

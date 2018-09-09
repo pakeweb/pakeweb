@@ -13,7 +13,7 @@ Hal ini tentu saja menguntungkan bagi orang-orang yang (mampu) mempunyai sarana 
 
 Kami tidak sepenuhnya mengamini pernyataan tersebut karena kami akan memberikan pelayanan gratis untuk pembuatan website anda setidaknya sampai anda merasa website anda harus ditingkatkan.
 
-Jika anda menyukai pekerjaan kami, kami akan sangat menghargai jika anda melakukan donasi baik itu Rp1.000 perbulan, Rp10.000 sekali saja, bahkan do'a anda saja sangat kami harapkan.
+Jika anda menyukai pekerjaan kami, kami akan sangat menghargai jika anda melakukan donasi baik itu Rp1.000 perbulan, Rp10.000 sekali saja, bahkan do'a anda sangat kami harapkan.
 
 ## Kualitas
 
@@ -21,10 +21,10 @@ Jika anda bertanya "Kenapa bisa gratis?" atau berpikiran "Ah, paling kualitas é
 
 ### Server
 
-Berikut adalah beberapa server gratis yang kami gunakan untuk hosting website
+Berikut adalah daftar beberapa server gratis yang kami gunakan untuk hosting website.
 
 1. [Google Firebase](https://firebase.google.com/)
-2. [GAE (Google App Engine)](https://cloud.google.com/appengine/)
+2. [Google App Engine (GAE)](https://cloud.google.com/appengine/)
 3. [Netlify](https://netlify.com/)
 4. [Zeit](https://zeit.co/)
 5. [Heroku](https://heroku.com/)

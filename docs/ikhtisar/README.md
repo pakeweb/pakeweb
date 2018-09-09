@@ -5,7 +5,7 @@ sidebar: auto
 
 ## Prakata
 [Zaman now](https://zaman.now.sh) semua memang sudah serba *online*; dari mulai belanja, ngojek sampai beli tiket semua bisa dilakukan tanpa ribet.
-Hal ini tentu saja menguntungkan bagi orang-orang yang (mampu) mempunyai sarana tersebut. Tetapi menjadi tidak adil jika sarana tersebut hanya dimiliki orang-orang yang mempunyai finansial yang cukup. Oleh karena itu, kami mengusung [Pake Web]($withRoot('/')) untuk kita **semua** meng-*online*-kan ide, usaha, profil dan lain sebagainya.
+Hal ini tentu saja menguntungkan bagi orang-orang yang (mampu) mempunyai sarana tersebut. Tetapi menjadi tidak adil jika sarana tersebut hanya dimiliki orang-orang yang mempunyai finansial yang cukup. Oleh karena itu, kami mengusung [Pake Web](https://pake.web.id) untuk kita **semua** meng-*online*-kan ide, usaha, profil dan lain sebagainya.
 
 ## Biaya
 
@@ -61,8 +61,3 @@ Domain tld gratis cukup bagus digunakan *startup* untuk 6-9 bulan, 3 bulan sisan
 ### Jasa
 
 Anda akan mendapatkan layanan pembuatan website, pelatihan untuk moderasi konten website juga layanan penanggulangan keamanan dan kerusakan website.
-
-<!-- 
-Di **Pake Web** hanya ada orang-orang **mahir** dan **tidak mahir**, tidak ada orang yang pertengahan. Untuk orang tidak mahir  pekerjaan yang anda berikan adalah ajang belajar dan peningkatan kemampuan sedangkan untuk orang mahir, membuat website bukan hal yang begitu sulit.
-
-Kami adalah orang yang percaya akan kemampuan kami, kualitas produk yang kami hasilkan dan yakin anda akan puas dengan yang kami berikan. Itulah alasan kenapa anda bisa mendapatkannya secara gratis dan juga menjadi alasan yang logis untuk anda percaya terhadap kami. -->

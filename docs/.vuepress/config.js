@@ -45,6 +45,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
+  ga: 'UA-125480832-1',
   markdown: {
     config: md => {
       md.use(container, 'share', {

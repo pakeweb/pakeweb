@@ -4,12 +4,12 @@
       Beritahu mereka <span class="mobile-hide">tentang kami</span>
     </div>
     <social-sharing
-      url="https://vuejs.org/"
-      title="The Progressive JavaScript Framework"
-      description="Intuitive, Fast and Composable MVVM for building interactive interfaces."
-      quote="Vue is a progressive framework for building user interfaces."
-      hashtags="vuejs,javascript,framework"
-      twitter-user="vuejs"
+      url="https://pake.web.id/"
+      title="Pake Web"
+      description="Website gratis dengan teknologi mutakhir."
+      quote="Jangan membayar untuk hal yang tak berguna."
+      hashtags="gratis,website,indonesia"
+      twitter-user="PakeWeb"
       network-tag="div"
       inline-template
     >

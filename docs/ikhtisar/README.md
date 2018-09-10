@@ -4,6 +4,7 @@ sidebar: auto
 # Ikhtisar
 
 ## Motivasi
+
 [Zaman now](https://zaman.now.sh), semua sudah serba *online*; dari mulai belanja, ngojek sampai beli tiket semua bisa dilakukan tanpa ribet.
 Hal ini tentu saja menguntungkan bagi orang-orang yang (mampu) mempunyai sarana tersebut. Tetapi menjadi tidak adil jika sarana tersebut hanya dimiliki orang-orang yang mempunyai finansial yang cukup. Oleh karena itu, kami mengusung [Pake Web](https://pake.web.id) untuk kita **semua** meng-*online*-kan ide, usaha, profil dan lain sebagainya.
 

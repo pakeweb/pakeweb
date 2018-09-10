@@ -1,4 +1,5 @@
 const container = require('markdown-it-container')
+const path = require('path')
 
 module.exports = {
   dest: 'dist',
@@ -83,6 +84,13 @@ module.exports = {
           },
         },
         lastUpdated: 'Diperbarui pada',
+      },
+    },
+  },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@pkg': path.resolve(__dirname, '../../node_modules'),
       },
     },
   },

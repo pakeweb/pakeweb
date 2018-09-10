@@ -62,19 +62,19 @@
 </template>
 
 <script>
-import 'vue-awesome/icons/brands/facebook'
-import 'vue-awesome/icons/brands/google-plus-g'
-import 'vue-awesome/icons/brands/line'
-import 'vue-awesome/icons/brands/linkedin'
-import 'vue-awesome/icons/brands/pinterest'
-import 'vue-awesome/icons/brands/telegram'
-import 'vue-awesome/icons/brands/twitter'
-import 'vue-awesome/icons/brands/whatsapp'
-import 'vue-awesome/icons/envelope'
-import 'vue-awesome/icons/comment'
+import '@pkg/vue-awesome/icons/brands/facebook'
+import '@pkg/vue-awesome/icons/brands/google-plus-g'
+import '@pkg/vue-awesome/icons/brands/line'
+import '@pkg/vue-awesome/icons/brands/linkedin'
+import '@pkg/vue-awesome/icons/brands/pinterest'
+import '@pkg/vue-awesome/icons/brands/telegram'
+import '@pkg/vue-awesome/icons/brands/twitter'
+import '@pkg/vue-awesome/icons/brands/whatsapp'
+import '@pkg/vue-awesome/icons/envelope'
+import '@pkg/vue-awesome/icons/comment'
 
-import Network from 'vue-social-sharing/src/social-sharing-network'
-import SocialSharing from 'vue-social-sharing/src/social-sharing'
+import Network from '@pkg/vue-social-sharing/src/social-sharing-network'
+import SocialSharing from '@pkg/vue-social-sharing/src/social-sharing'
 
 export default {
   components: {

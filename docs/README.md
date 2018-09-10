@@ -12,4 +12,5 @@ features:
     details: Menggunakan teknologi terkini dalam pembuatan.
   - title: Cepat
     details: Akses situs web dengan cepat bahkan bisa offline.
+footer: Situs web ini sepenuhnya menggunakan layanan gratis kecuali nama domain.
 ---

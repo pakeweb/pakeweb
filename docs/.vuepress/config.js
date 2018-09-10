@@ -1,4 +1,5 @@
-// use config.yml for simple configuration
+const container = require('markdown-it-container')
+
 module.exports = {
   dest: 'dist',
   head: [
@@ -43,6 +44,15 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
+  markdown: {
+    config: md => {
+      md.use(container, 'share', {
+        render(tokens, idx) {
+          return tokens[idx].nesting === 1 ? '<Share>' : '</Share>'
+        },
+      })
+    },
+  },
   locales: {
     '/': {
       lang: 'id-ID',

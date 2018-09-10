@@ -8,11 +8,11 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "dev": "yarn start"
+    "clean": "rimraf node_modules/vuepress/node_modules/.cache"
   },
   "dependencies": {
-    "pug": "^2.0.3",
-    "pug-plain-loader": "^1.0.0",
+    "vue-awesome": "^3.1.2",
+    "vue-social-sharing": "^2.3.3",
     "vuepress": "^0.14.2"
   },
   "devDependencies": {

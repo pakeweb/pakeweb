@@ -9,3 +9,5 @@ Rencana implementasi:
 - Pengajuan dengan formulir langsung
 - Pengajuan dengan sarana media sosial
 :::
+
+::: share

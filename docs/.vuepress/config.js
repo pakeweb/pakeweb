@@ -76,6 +76,7 @@ module.exports = {
           // { text: 'pengembang', link: '/pengembang/' },
           { text: 'ikhtisar', link: '/ikhtisar/' },
           // { text: 'hubungi', link: '/hubungi/' },
+          { text: 'pengajuan', link: '/pengajuan/' },
         ],
         serviceWorker: {
           updatePopup: {

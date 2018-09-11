@@ -29,7 +29,7 @@ Berikut adalah daftar beberapa server gratis yang kami gunakan untuk hosting web
 3. [Netlify](https://netlify.com/)
 4. [Zeit](https://zeit.co/)
 5. [Heroku](https://heroku.com/)
-6. [Forge](https://getforge.com/)
+6. [Appernetic](https://appernetic.io/)
 7. [Surge](https://surge.sh/)
 8. [Github](https://github.com/)
 9. [Gitlab](https://gitlab.com/)

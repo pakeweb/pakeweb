@@ -17,7 +17,4 @@ const sitemap = createSitemap({
   urls,
 })
 
-writeFileSync(
-  resolve(__dirname, '../docs/.vuepress/public/sitemap.xml'),
-  sitemap.toString()
-)
+writeFileSync(resolve(__dirname, '../dist/sitemap.xml'), sitemap.toString())

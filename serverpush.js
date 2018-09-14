@@ -29,30 +29,47 @@ for (let x = 0; x < files.length; x++) {
     const rel = line.match(/rel=(?:'|")(.*?)(?:'|")/)
     const type = line.match(/as=(?:'|")(.*?)(?:'|")/)
     const href = line.match(/href=(?:'|")(.*?)(?:'|")/)
-    let value = `<${href[1]}>;rel=${rel[1]}`
+    let value = `<${href[1]}>; rel=${rel[1]}`
 
     if (type) {
-      value += `;as=${type[1]}`
+      value += `; as=${type[1]}`
     }
 
     values.push(value)
   })
 
   headers.push({
-    source: '/' + files[x].replace(/index\.html$/, ''),
-    headers: [
-      {
-        key: 'Link',
-        value: values.join(','),
-      },
-    ],
+    path: '/' + files[x].replace(/index\.html$/, ''),
+    header: values.join(', '),
   })
 }
 
-const fath = path.resolve('firebase.json')
+const netlify = process.env.NETLIFY || process.env.NETLIFY_REPO_URL
+if (netlify) {
+  console.log(`netlify detected: ${netlify}`)
+  console.log(`creating file: ${cwd}/_headers`)
+  const netlifyHeader = headers.map(h => `${h.path}\n\tLink: ${h.header}`)
+  fs.writeFileSync(cwd + '/_headers', netlifyHeader.join('\n'))
+} else {
+  console.log(`netlify not detected`)
+  console.log(`updating file: ./firebase.json`)
+  const fath = path.resolve('firebase.json')
+  let firebase = fs.readFileSync(fath)
+  firebase = JSON.parse(firebase.toString())
 
-let firebase = fs.readFileSync(fath)
-firebase = JSON.parse(firebase.toString())
-firebase = deepmerge(firebase, { hosting: { headers } })
+  const pushHeader = headers.map(h => {
+    return {
+      source: h.path,
+      headers: [
+        {
+          key: 'Link',
+          value: h.header,
+        },
+      ],
+    }
+  })
 
-fs.writeFileSync(fath, JSON.stringify(firebase, null, 2))
+  firebase = deepmerge(firebase, { hosting: { headers: pushHeader } })
+
+  fs.writeFileSync(fath, JSON.stringify(firebase, null, 2))
+}

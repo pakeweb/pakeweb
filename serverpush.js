@@ -53,6 +53,6 @@ const fath = path.resolve('firebase.json')
 
 let firebase = fs.readFileSync(fath)
 firebase = JSON.parse(firebase.toString())
-firebase = deepmerge(firebase, { headers })
+firebase = deepmerge(firebase, { hosting: { headers } })
 
 fs.writeFileSync(fath, JSON.stringify(firebase, null, 2))

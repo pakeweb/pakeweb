@@ -3,7 +3,7 @@ const fs = require('fs')
 const glob = require('glob')
 const deepmerge = require('deepmerge')
 
-const cwd = path.resolve(__dirname, 'dist')
+const cwd = path.resolve(__dirname, '../dist')
 
 const files = glob
   .sync('**/*.html', { cwd })
@@ -53,7 +53,7 @@ if (netlify) {
 } else {
   console.log(`netlify not detected`)
   console.log(`updating file: ./firebase.json`)
-  const fath = path.resolve('firebase.json')
+  const fath = path.resolve(__dirname, '../firebase.json')
   let firebase = fs.readFileSync(fath)
   firebase = JSON.parse(firebase.toString())
 

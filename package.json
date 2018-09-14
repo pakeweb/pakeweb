@@ -9,6 +9,7 @@
     "start": "vuepress dev docs",
     "prebuild": "node ./docs/.vuepress/sitemap.js",
     "build": "vuepress build docs",
+    "postbuild": "node ./serverpush.js",
     "clean": "rimraf node_modules/vuepress/node_modules/.cache"
   },
   "dependencies": {

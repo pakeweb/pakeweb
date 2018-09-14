@@ -7,10 +7,12 @@
   "license": "MIT",
   "scripts": {
     "start": "vuepress dev docs",
+    "prebuild": "node ./docs/.vuepress/sitemap.js",
     "build": "vuepress build docs",
     "clean": "rimraf node_modules/vuepress/node_modules/.cache"
   },
   "dependencies": {
+    "sitemap": "^2.0.1",
     "vue-awesome": "^3.1.2",
     "vue-social-sharing": "^2.3.3",
     "vuepress": "^0.14.2"

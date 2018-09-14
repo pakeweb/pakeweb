@@ -49,7 +49,7 @@ if (netlify) {
   console.log(`netlify detected: ${netlify}`)
   console.log(`creating file: ${cwd}/_headers`)
   const netlifyHeader = headers.map(h => `${h.path}\n\tLink: ${h.header}`)
-  fs.writeFileSync(cwd + '/_headers', netlifyHeader.join('\n'))
+  fs.appendFileSync(cwd + '/_headers', '\n' + netlifyHeader.join('\n'))
 } else {
   console.log(`netlify not detected`)
   console.log(`updating file: ./firebase.json`)

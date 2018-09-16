@@ -44,6 +44,13 @@ module.exports = {
     ['meta', { name: 'application-name', content: 'Pake Web' }],
     ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Roboto+Mono:300',
+      },
+    ],
   ],
   ga: 'UA-125480832-1',
   markdown: {

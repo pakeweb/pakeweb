@@ -1,8 +1,8 @@
 [build]
   publish = "dist"
-  command = "yarn build"
+  command = "npm run build"
 [build.environment]
   NETLIFY = "true"
-  NODE_VERSION = "8"
+  NODE_VERSION = "10"
   NPM_VERSION = "6.4.1"
   YARN_VERSION = "1.9.4"

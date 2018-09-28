@@ -8,16 +8,17 @@
   "scripts": {
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
-    "sitemap": "node -r esm ./scripts/sitemap.js",
-    "serverpush": "node ./scripts/serverpush.js",
+    "sitemap": "vuepress-sitemap -h https://pake.web.id -d dist",
+    "serverpush": "vuepress-server-push -d dist -n",
     "postbuild": "run-p serverpush sitemap",
     "clean": "rimraf node_modules/vuepress/node_modules/.cache"
   },
   "dependencies": {
-    "sitemap": "^2.0.1",
     "vue-awesome": "^3.1.3",
     "vue-social-sharing": "^2.3.3",
-    "vuepress": "^0.14.4"
+    "vuepress": "^0.14.4",
+    "vuepress-plugin-server-push": "0.0.1",
+    "vuepress-plugin-sitemap": "^0.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.0",
@@ -25,7 +26,6 @@
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-vue": "^5.0.0-beta.3",
-    "esm": "^3.0.82",
     "imagemin-lint-staged": "^0.3.0",
     "lint-staged": "^7.2.2",
     "npm-run-all": "^4.1.3",

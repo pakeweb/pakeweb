@@ -1,12 +1,13 @@
 language: node_js
-node_js: '10'
+node_js: '8'
 cache:
   yarn: true
   directories:
     - .firebase
-    - $HOME/.npm
-install: npm ci
-script: npm run build
+    - node_modules
+before_install: yarn global add firebase-tools
+install: yarn
+script: yarn build
 notifications:
   email: false
 deploy:
@@ -20,7 +21,7 @@ deploy:
     on:
       branch: master
   - provider: script
-    script: npx firebase deploy --token "$FIREBASE_TOKEN"
+    script: firebase deploy --token "$FIREBASE_TOKEN"
     skip-cleanup: true
     on:
       branch: master

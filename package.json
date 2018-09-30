@@ -21,7 +21,7 @@
     "vuepress-plugin-sitemap": "^0.0.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.0",
+    "babel-eslint": "^9.0.0",
     "eslint": "^5.5.0",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-node": "^7.0.1",

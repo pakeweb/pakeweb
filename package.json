@@ -9,7 +9,7 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
     "sitemap": "vuepress-sitemap -h https://pake.web.id -d dist",
-    "serverpush": "vuepress-server-push -d dist -n",
+    "serverpush": "vuepress-server-push dist -f",
     "postbuild": "run-p serverpush sitemap",
     "clean": "rimraf node_modules/vuepress/node_modules/.cache"
   },
@@ -17,7 +17,7 @@
     "vue-awesome": "^3.1.3",
     "vue-social-sharing": "^2.3.3",
     "vuepress": "^0.14.4",
-    "vuepress-plugin-server-push": "0.0.1",
+    "vuepress-plugin-server-push": "^0.1.1",
     "vuepress-plugin-sitemap": "^0.0.1"
   },
   "devDependencies": {
